@@ -1,0 +1,159 @@
+CRITICAL - 2020-10-27 01:28:56 --> Unknown column 'tgl_kirim' in 'field list'
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, DATE_...')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, DATE_...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, DATE_...')
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_...', Array, false)
+#4 C:\xampp\htdocs\smk67-project\app\Models\Backup_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(24): App\Models\Backup_model->getBackup()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->index()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-10-27 01:39:23 --> Invalid file: backup/form.php
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backup/form.php')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backup/form', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('backup/form', Array)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(33): Config\Services::template('backup/form', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->add()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-27 01:40:11 --> Invalid file: backup/form.php
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backup/form.php')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backup/form', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('backup/form', Array)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(33): Config\Services::template('backup/form', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->add()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-27 01:40:12 --> Invalid file: backup/form.php
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backup/form.php')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backup/form', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('backup/form', Array)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(33): Config\Services::template('backup/form', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->add()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-27 01:41:33 --> Call to undefined method App\Models\Backup_model::saveMasuk
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(54): CodeIgniter\Model->__call('saveMasuk', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->save()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-27 01:50:40 --> Column 'disimpan_oleh' cannot be null
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\smk67-project\app\Models\Backup_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(58): App\Models\Backup_model->saveBackup(Array)
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->save()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-10-27 02:25:21 --> Class 'codeigniter\model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-27 02:27:07 --> Call to undefined method app\models\Surat_user_model::getSurat
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\Receive.php(22): CodeIgniter\Model->__call('getSurat', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Receive->index()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receive))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-27 02:30:37 --> Undefined index: judul_surat
+#0 C:\xampp\htdocs\smk67-project\app\Views\receive\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('receive/index', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('receive/index', Array)
+#4 C:\xampp\htdocs\smk67-project\app\Controllers\Receive.php(23): Config\Services::template('receive/index', Array)
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Receive->index()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receive))
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-27 02:59:38 --> Undefined index: nomor_surat
+#0 C:\xampp\htdocs\smk67-project\app\Views\masuks\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('masuks/index', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('masuks/index', Array)
+#4 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(24): Config\Services::template('masuks/index', Array)
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->index()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-27 03:04:29 --> Undefined variable: nomor_surat
+#0 C:\xampp\htdocs\smk67-project\app\Views\masuks\form.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('masuks/form', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('masuks/form', Array)
+#4 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(67): Config\Services::template('masuks/form', Array)
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->edit('26')
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-27 03:09:48 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(95): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->update()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-27 03:11:13 --> unlink(C:\xampp\htdocs\smk67-project\public/uploads/A4-BI-RECRUITMENT FINAL.pdf.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(92): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->update()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-27 03:12:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(95): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->update()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-27 03:14:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->update()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-27 03:16:41 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->update()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

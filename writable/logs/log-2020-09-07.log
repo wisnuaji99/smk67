@@ -1,0 +1,98 @@
+CRITICAL - 2020-09-07 02:22:09 --> Invalid file: users.php
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(12): view('users', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 02:27:31 --> Call to undefined method App\Models\User_model::saveRoles
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(29): CodeIgniter\Model->__call('saveRoles', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-07 02:54:54 --> Class 'App\Controllers\Template_model' not found
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Template->index()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-07 02:56:29 --> Class 'App\Controllers\Template_model' not found
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Template->index()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-07 03:03:15 --> Undefined index: tgel_jekuar
+#0 C:\xampp\htdocs\smk67-project\app\Views\template\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\Template.php(12): view('template/index', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Template->index()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-07 03:11:43 --> Column 'role_id' cannot be null
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\smk67-project\app\Models\User_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(29): App\Models\User_model->saveUser(Array)
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-09-07 03:13:59 --> Column 'role_id' cannot be null
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\smk67-project\app\Models\User_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(29): App\Models\User_model->saveUser(Array)
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-09-07 03:15:59 --> Call to undefined method App\Models\Template_model::saveUser
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\Template.php(31): CodeIgniter\Model->__call('saveUser', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Template->save()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-07 03:41:28 --> Unknown column 'tgl_disimpan' in 'field list'
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\smk67-project\app\Models\Backup_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\smk67-project\app\Controllers\Backup.php(29): App\Models\Backup_model->saveBackup(Array)
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backup->save()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-09-07 03:55:03 --> Call to undefined method App\Models\Masuk_model::getTemplate
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\Masuk.php(10): CodeIgniter\Model->__call('getTemplate', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Masuk->index()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

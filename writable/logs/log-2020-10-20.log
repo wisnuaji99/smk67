@@ -1,0 +1,34 @@
+CRITICAL - 2020-10-20 02:48:41 --> Class 'codeigniter\model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:49:32 --> Class 'Codeigniter\model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:49:58 --> Call to undefined method app\models\Surat_model::getMasuk
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\Surat.php(19): CodeIgniter\Model->__call('getMasuk', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Surat->index()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-20 03:56:06 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\smk67-project\app\Config\Services.php on line 33
+#0 C:\xampp\htdocs\smk67-project\app\Config\Services.php(33): view('layout/header', NULL)
+#1 C:\xampp\htdocs\smk67-project\app\Controllers\Surat.php(32): Config\Services::template('surats/add')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Surat->add()
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-20 03:57:07 --> Invalid file: surats/add.php
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('surats/add.php')
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('surats/add', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Config\Services.php(36): view('surats/add', Array)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\Surat.php(32): Config\Services::template('surats/add', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Surat->add()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

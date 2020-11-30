@@ -1,0 +1,38 @@
+CRITICAL - 2020-09-03 04:32:45 --> Call to undefined method App\Models\User_model::getRoles
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(10): CodeIgniter\Model->__call('getRoles', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-03 04:33:48 --> Call to undefined method App\Models\User_model::getUser
+#0 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(10): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-03 04:34:21 --> Undefined index: nama
+#0 C:\xampp\htdocs\smk67-project\app\Views\users.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('users', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\User.php(12): view('users', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-03 04:58:03 --> Undefined index: Judul
+#0 C:\xampp\htdocs\smk67-project\app\Views\Surat_masuk.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Surat_masuk', Array, true)
+#3 C:\xampp\htdocs\smk67-project\app\Controllers\SuratMasuk.php(13): view('Surat_masuk', Array)
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SuratMasuk->index()
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#6 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

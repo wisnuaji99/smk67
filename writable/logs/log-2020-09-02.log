@@ -1,0 +1,80 @@
+CRITICAL - 2020-09-02 03:59:36 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 03:59:42 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:01:30 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:01:31 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:01:34 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:01:49 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:01:52 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-02 04:02:48 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('role', Array, true)
+#2 C:\xampp\htdocs\smk67-project\app\Controllers\Role.php(12): view('role', Array)
+#3 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#4 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

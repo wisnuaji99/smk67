@@ -1,0 +1,170 @@
+CRITICAL - 2020-11-30 00:12:28 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:13:48 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:14:51 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:15:56 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#12 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#13 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2020-11-30 00:32:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:33:26 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:36:05 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:37:06 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:38:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:39:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:40:25 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:41:25 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 00:43:50 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#12 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#13 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2020-11-30 00:44:00 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 01:00:38 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#12 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#13 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#15 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+CRITICAL - 2020-11-30 01:00:47 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 257953792 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 01:04:40 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#12 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#13 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#15 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+CRITICAL - 2020-11-30 01:04:50 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 257953792 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 01:04:58 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#12 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#13 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#15 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+CRITICAL - 2020-11-30 01:05:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 01:06:10 --> The row #2 could not be found, please file an issue in the tracker with the HTML code
+#0 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(62): Dompdf\Cellmap->get_frame_height(Object(Dompdf\FrameDecorator\TableRow))
+#1 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#2 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#3 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#4 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Table.php(489): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#9 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#10 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#12 C:\xampp\htdocs\smk67-project\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#13 C:\xampp\htdocs\smk67-project\app\Controllers\PdfController.php(27): Dompdf\Dompdf->render()
+#14 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\PdfController->htmlToPDF()
+#15 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#16 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\smk67-project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\smk67-project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+CRITICAL - 2020-11-30 01:06:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 257953792 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
