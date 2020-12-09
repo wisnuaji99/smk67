@@ -3,13 +3,15 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use Dompdf\Dompdf;
 use Dompdf\Options;
+use App\models\Template_model;
 
 class PdfController extends Controller
 {
 
-    public function index() 
+    public function index($id) 
 	{   
-
+        $model = new Template_model();
+        $data['template'] = $model->getTemplate($id)->getRow();
         return view('pdf_view');
     }
 

@@ -16,16 +16,14 @@
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary"><?php echo $title; ?></h6>
-                  <a href="/kerangka" class="btn btn-success pull-right">List of Request letters</a>
+                  <a href="/kerangka" class="btn btn-success pull-right">Daftar Surat Permintaan Telah Dibuat</a>
                 </div>
                 <div class="table-responsive p-3">
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
                       <th>No</th>
-                      <th>Judul Surat </th>
-                      <th>File Surat </th>
-                      <th>Nama Penerima </th>
+                      <th>Isi Permintaan </th>
                       <th>Pengirim</th>
                       <th>Tanggal Kirim</th>
                       <th>Status Surat</th>
@@ -35,9 +33,7 @@
                     <tfoot>
                       <tr>
                       <th>No</th>
-                      <th>Judul Surat </th>
-                      <th>File Surat </th>
-                      <th>Nama Penerima </th>
+                      <th>Isi Permintaan </th>
                       <th>Pengirim</th>
                       <th>Tanggal Kirim</th>
                       <th>Status Surat</th>
@@ -51,29 +47,25 @@
                         foreach($surats as $row) { ?>
                             <tr>
                                 <td><?php echo $no++ ?></td>
-                                <td><?php echo $row['judul_surat']?></td>
-                                <td><?php echo $row['file_surat']?></td>
-                                <td><?php echo $row['nama_penerima']?></td>
+                                <td><?php echo $row['isi']?></td>
                                 <td><?php echo $row['pengirim']?></td>
                                 <td><?php echo str_replace('`', '',$row['waktu'])?></td> 
                                 <td><?php
                                           if ($row['status'] == 1) {
-                                               echo "Dikirim";
+                                               echo "Terkirim Ke Operator";
                                           } else if($row['status']== 2) {
-                                               echo "Telah dibaca";
-                                          } else if ($row['status']== 3) {
-                                               echo "Permintaan Surat Balasan";}?></td> 
-                                <td>  
-                                    <a  class="btn btn-success" href="/kerangka/add/<?php echo $row['id_penerima'] ?>"
+                                               echo "Surat Telah Dibuat";
+                                          } 
+                                      ?>
+                                </td> 
+                                <td>
+                                    <a  class="btn btn-success" href="/kerangka/add/<?php echo $row['id'] ?>"
                                     data-toggle="tooltip" data-html="true" title="Buat Surat Permintaan"
                                     ><i class="fas fa-plus"></i></a>
-                                    <a  class="btn btn-info" href="/permintaan/view/<?php echo $row['id'] ?>"
-                                    data-toggle="tooltip" data-html="true" title="Tombol View"
-                                    ><i class="fas fa-eye"></i></a>
-                                    <button  class="btn btn-danger remove" id="<?php echo $row['id']?>" type="submit" value="<?php echo $row['id']?>"
-                                    data-toggle="tooltip" data-html="true" title="Tombol Hapus">
-                                    <i class="fas fa-trash" tool></i> </button>
-                                   
+                                    <a  class="btn btn-info" href="/permintaan/edit/<?php echo $row['id'] ?>"
+                                    data-toggle="tooltip" data-html="true" title="Edit Status"
+                                    ><i class="fas fa-pen"></i></a>
+                                  
                              
                                
                                 </td>
@@ -92,42 +84,4 @@
         </div>
         <!---Container Fluid-->
       </div>
-      <script type="text/javascript">
-
-$(".remove").click(function(){
-
-    var id = $(this).val();
-
-console.log(id);
-
-   swal({ title: "Are you sure?",
-            text: "You will not be able to recover this imaginary file!",
-            type: "warning",
-            showCancelButton: true,
-            confirmButtonClass: "btn-danger",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: "No, cancel plx!",
-            closeOnConfirm: true,
-            closeOnCancel: true
-
-  },
-
-  function(isConfirm) {
-    if (isConfirm) {
-      window.location.href = '/permintaan/delete/' +id;
-  } else {
-            swal("Cancelled", "Your imaginary file is safe :)", "error");
-
-    }
-
-  });
-
-});
-
-
-
-</script>
-
-      
-
-
+  

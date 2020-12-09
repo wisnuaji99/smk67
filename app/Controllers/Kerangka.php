@@ -45,7 +45,7 @@ class Kerangka extends BaseController
         $jabatan_penulis = $this->request->getPost('jabatan_penulis');
 
         $data = [
-                'user_id' => $user_data_id,
+                'permintaan_id' => $user_data_id,
                 'nomor' => $nomor,
                 'sifat' => $sifat,
                 'lampiran' => $lampiran,

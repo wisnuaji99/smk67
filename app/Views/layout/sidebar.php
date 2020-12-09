@@ -40,20 +40,22 @@
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm" aria-expanded="true"
           aria-controls="collapseForm">
           <i class="fas fa-fw fa-envelope"></i>
-          <span>Letters</span>
+          <span>Surat</span>
         </a>
         <div id="collapseForm" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Letters</h6>
+            <h6 class="collapse-header">Surat</h6>
 
             <?php if( session('role_id') === '1' || session('role_id') === '4') { ?>
-            <a class="collapse-item" href="<?php echo base_url().'/masuk';?>">Input Letters</a>    
-            <a class="collapse-item" href="<?php echo base_url().'/surat';?>">Letters Sent</a>
-            <a class="collapse-item" href="<?php echo base_url().'/permintaan';?>">Resquest Letters</a>
+            <a class="collapse-item" href="<?php echo base_url().'/masuk';?>">Surat Masuk</a>    
+            <a class="collapse-item" href="<?php echo base_url().'/surat';?>">Surat Terkirim</a>
+            <a class="collapse-item" href="<?php echo base_url().'/permintaan';?>">Surat Balasan Permintaan</a>
            <?php } if(session('role_id') === '4') { ?>
-            <a class="collapse-item" href="<?php echo base_url().'/backup';?>">Output Letters</a>
+            <a class="collapse-item" href="<?php echo base_url().'/backup';?>">Surat Keluar</a>
            <?php } if( session('role_id') !== '1' ) { ?>
-            <a class="collapse-item" href="<?php echo base_url().'/receive';?>">Letters Received </a>
+            <a class="collapse-item" href="<?php echo base_url().'/receive';?>">Surat Diterima </a>
+           <?php }if( session('role_id') === '3' ) { ?>
+            <a class="collapse-item" href="<?php echo base_url().'/request';?>">Surat Permintaan</a>
            <?php }?>
           </div>
         </div>

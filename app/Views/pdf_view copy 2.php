@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
   
-  
 </head>
 
 <body>

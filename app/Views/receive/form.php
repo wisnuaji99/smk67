@@ -60,9 +60,7 @@ $btn = isset($surat) ? "Ubah" : "Simpan";
                             echo "Dikirim";
                           } elseif ($status == 2) {
                             echo "Dibaca";
-                          } elseif ($status == 3) {
-                            echo "Prmintaan Surat Balasan";
-                          } 
+                          }  
                            
                           ?>
                         </option>
@@ -75,7 +73,7 @@ $btn = isset($surat) ? "Ubah" : "Simpan";
                      
                       <option value="1">Dikirim</option>
                       <option value="2">Dibaca</option>
-                      <option value="3">Permintaan Surat Balasan</option>
+                   
                     </select>
 
                     <?php }?>

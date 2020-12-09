@@ -11,14 +11,16 @@ class Template_model extends Model {
         if ($id === false) {
             return $this->db->table($this->table." a ")
             ->select(' a.* , b.name AS name')
-            ->join('users b','a.user_id=b.id','left')
+            ->join('surat_permintaan c','a.permintaan_id=c.id','left')
+            ->join('users b','c.pengirim=b.id','left')
             ->groupBy(["a.id"])
             ->orderBy('a.tgl_keluar','desc')
             ->get()->getResultArray();
         } else {
             return $this->db->table($this->table." a " )
             ->select(' a.* , b.name AS name')
-            ->join('users b','a.user_id=b.id','left')
+            ->join('surat_permintaan c','a.permintaan_id=c.id','left')
+            ->join('users b','c.pengirim=b.id','left')
             ->groupBy(["a.id"])
             ->orderBy('a.tgl_keluar','desc')
             ->getWhere(['a.id' => $id]);

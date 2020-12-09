@@ -62,17 +62,17 @@
                                 <a class="btn btn-success" 
                                 href="<?php echo base_url().'/uploads/'.$row['file_surat']?>"  data-toggle="tooltip" data-html="true" 
                                 title="Tombol Download File" download>
-                              <i class="fa fa-download"></i></a>  
-                              <?php if (session('role_id') !== '2') { ?>
+                                <i class="fa fa-download"></i></a>  
+                             
+                                <?php if (session('role_id') == '3') { ?>
                                 <a class="btn btn-warning" href="/receive/edit/<?php echo $row['id'] ?>"
                                 data-toggle="tooltip" data-html="true" title="Update Status"
                                 ><i class="fas fa-pen"></i></a>
-                                    <a  class="btn btn-info" href="/receive/view/<?php echo $row['id'] ?>"
-                                    data-toggle="tooltip" data-html="true" title="Tombol View"
-                                    ><i class="fas fa-eye"></i></a>
-                                   
-                              <?php }?>
-                               
+                                <?php }?>
+                                
+                                <a  class="btn btn-info" href="<?php echo base_url().'/uploads/'.$row['file_surat']?>"  data-toggle="tooltip" data-html="true" 
+                                title="Tombol View" target="_blank"><i class="fas fa-eye"></i></a>
+                                                         
                                 </td>
                             </tr>
                         <?php }?>

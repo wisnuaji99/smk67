@@ -1,22 +1,20 @@
 <?php
 
 $id = isset($surat) ? $surat->id : "";
-$judul = isset($surat) ? $surat->judul_surat : "";
-$file = isset($surat) ? $surat->file_surat : "";
-$penerima = isset($surat) ? $surat->nama_penerima : "";
+$isi = isset($surat) ? $surat->isi : "";
 $waktu = isset($surat) ? $surat->waktu : "";
 $pengirim = isset($surat) ? $surat->pengirim : "";
 $status = isset($surat) ? $surat->status : "";
-$v = isset($v) ? "readonly" : "";
+
 $btn = isset($surat) ? "Ubah" : "Simpan";
 ?>
 <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Request Letter</h1>
+            <h1 class="h3 mb-0 text-gray-800">Balasan Permintaan Surat</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="<?php echo base_url('/hello'); ?>">Dashboard</a></li>
-              <li class="breadcrumb-item">Request Letter</li>
+              <li class="breadcrumb-item">Balasan Permintaan Surat</li>
               <li class="breadcrumb-item active" aria-current="page"><?php echo $arr; ?></li>
             </ol>
           </div>
@@ -33,70 +31,48 @@ $btn = isset($surat) ? "Ubah" : "Simpan";
                   <input type="hidden" name="id" value="<?php echo $id; ?>"> 
                  
                   <div class="form-group">
-                    <label for="select2Single">Judul Surat</label>
-                  
-                          <div style="padding:20px;">
-                            <b><?php echo $judul; ?></b>&nbsp;
-                            <a class="btn btn-success" 
-                                href="<?php echo base_url().'/uploads/'.$judul?>"  data-toggle="tooltip" data-html="true" 
-                                title="Tombol Download File" download>
-                                <i class="fa fa-download"></i></a> 
-                          </div>
+                  <div class="form-group">
+                      <label for="editor">Isi Surat</label>
+                      <textarea class="form-control" id="editor" name="isi" rows="3" readonly><?php echo $isi; ?></textarea>
+                      <small id="editor" class="form-text text-muted">Input ISI properly.</small>
+                    </div>
         
-                  </div>
-
+                  </div>              
                   <div class="form-group">
 
-                  <?php if ($v == "") { ?>
-                    
-                    <label for="select2Single">Status Surat</label>
-                  
-                      <select class="select2-single form-control" name="status" id="select2Single">
-                      <?php if (isset($surat)) { ?>
 
-                        <option value="<?php echo $status; ?>">
-                          <?php 
-                          if ($status == 1) {
-                            echo "Dikirim";
-                          } elseif ($status == 2) {
-                            echo "Dibaca";
-                          } elseif ($status == 3) {
-                            echo "Prmintaan Surat Balasan";
-                          } 
-                           
-                          ?>
-                        </option>
-                          
-                      <?php } else { ?>
-                        
-                        <option value="">Select Status</option>
+  
+  <label for="select2Single">Status Surat</label>
 
-                      <?php   } ?>
-                     
-                      <option value="1">Dikirim</option>
-                      <option value="2">Dibaca</option>
-                      <option value="3">Permintaan Surat Balasan</option>
-                    </select>
+    <select class="select2-single form-control" name="status" id="select2Single">
+    <?php if (isset($surat)) { ?>
 
-                    <?php }?>
-
-                  
-                    </div>
+      <option value="<?php echo $status; ?>">
+        <?php 
+       if ($status == 1) {
+        echo "Terkirim Ke Operator";
+     } else if($status == 2) {
+        echo "Surat Telah Dibuat";
+      }?>
+         
+      
+      </option>
         
-                <?php  if ($v != "") { ?>
-                  
-                  <div>
-                      <label>Status</label>
-                      <p>
-                      <?php
-                          if ($status == 1) {
-                                echo "Dikirim";
-                             } else if($status == 2) {
-                                echo "Telah dibaca";
-                              } else if ($status == 3) {
-                                echo "Permintaan Surat Balasan";}?>
-                      </p>
-                    </div>
+    <?php } else { ?>
+      
+      <option value="">Select Status</option>
+
+    <?php   } ?>
+   
+    <option value="1">Terkirim Ke Operator</option>
+    <option value="2">Surat Telah Dibuat</option>
+   
+  </select>
+
+ 
+
+
+  </div>
 
                     <div>
                       <label>Pengirim</label>
@@ -107,12 +83,8 @@ $btn = isset($surat) ? "Ubah" : "Simpan";
                       <label>Waktu Kirim</label>
                       <p><?php echo str_replace('`', '',$waktu);?></p>
                     </div>
-
-                <?php }  ?>
-                  
-                    <?php if ($v == "") { ?>
+                 
                       <button type="submit" class="btn btn-primary"><?php echo $btn; ?></button>
-                    <?php }?>
                     <a href="/permintaan" class="btn btn-primary" >Kembali</a>
                   </form>
                 </div>
@@ -120,4 +92,20 @@ $btn = isset($surat) ? "Ubah" : "Simpan";
             </div>
         </div>
 
-   
+        <script src="<?php echo base_url().'/ckeditor5/ckeditor.js'?>"></script>
+        <style>
+        .ck-editor__editable_inline{
+            min-height: 200px;
+        }
+    </style>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .then( editor => {
+                console.log( editor );
+                editor.isReadOnly = true;
+            } )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
