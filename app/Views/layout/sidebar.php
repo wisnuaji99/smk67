@@ -56,6 +56,8 @@
             <a class="collapse-item" href="<?php echo base_url().'/receive';?>">Surat Diterima </a>
            <?php }if( session('role_id') === '3' ) { ?>
             <a class="collapse-item" href="<?php echo base_url().'/request';?>">Surat Permintaan</a>
+           <?php }if( session('role_id') === '2' ) { ?>
+            <a class="collapse-item" href="<?php echo base_url().'/kerangka';?>">Surat Balasan Permintaan</a>
            <?php }?>
           </div>
         </div>

@@ -26,6 +26,7 @@
                       <th>Ditujukkan Kepada</th>
                       <th>Nama Pemohon </th>
                       <th>Pembuat Surat </th>
+                      <th>Catatan </th>
                       <th>Action </th>
                       </tr>
                     </thead>
@@ -40,6 +41,7 @@
                       <th>Ditujukkan Kepada</th>
                       <th>Nama Pemohon </th>
                       <th>Pembuat Surat </th>
+                      <th>Catatan </th>
                       <th>Action </th>
                       </tr>
                     </tfoot>
@@ -58,7 +60,18 @@
                                 <td><?php echo $row['jabatan_penulis']?></td>
                                 <td><?php echo $row['name']?></td>
                                 <td><?php echo $row['created_by']?></td>
+                                <td><?php echo $row['note']?></td>
                                 <td>
+                                
+                                <?php
+                                // var_dump(session('role_id'));die();
+                                if (session('role_id') == 2) { ?>
+                               
+                                <a class="btn btn-success" href="/kerangka/editkepsek/<?php echo $row['id'] ?>"
+                                data-toggle="tooltip" data-html="true" title="Update Catatan"
+                                ><i class="fas fa-pen"></i></a>
+
+                                <?php } else { ?>
                                 <a class="btn btn-warning" href="/kerangka/edit/<?php echo $row['id'] ?>"
                                 data-toggle="tooltip" data-html="true" title="Update Template"
                                 ><i class="fas fa-pen"></i></a>
@@ -66,9 +79,13 @@
                                     data-toggle="tooltip" data-html="true" title="Tombol Hapus">
                                     <i class="fas fa-trash" tool></i> </button>
 
-                                    <a  class="btn btn-info" href="pdfController/<?php echo $row['id'] ?>"
+                                  
+                                <?php } ?>
+
+                                <a  class="btn btn-info" href="pdfController/<?php echo $row['id'] ?>"
                                     data-toggle="tooltip" data-html="true" title="Lihat Surat"
                                     ><i class="fas fa-eye"></i></a>
+
                                 </td>
                               
                              
