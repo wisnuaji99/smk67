@@ -4,14 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Codeigniter 4 PDF Example - positronx.io</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Surat Permintaan</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <link href="<?php echo base_url().'/template/vendor/bootstrap/css/bootstrap.min.css'?>" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="container mt-5">
 
-    <h2>Generate PDF in Codeigniter from View</h2>
+    <h2>Tampilan PDF Untuk Surat Balasan</h2>
 
     <div class="d-flex flex-row-reverse bd-highlight">
       <a href="<?php echo base_url('PdfController/htmlToPDF') ?>" class="btn btn-primary">
@@ -28,12 +29,15 @@ $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data2);
 ?>
 <img src="<?php echo $base64; ?>" width="100%">
    
-	<p align="center" size="10" color="#000099">
-	<p align="right">bekasi, 21 april 2015</p>
+
 	<br>
+	<div align="left">
 	<p> kepada Yth.<br>
-	bapak/ibu pimpinan <br>
-	di tempat <br>
+	pimpinan pt pixel pro <br>
+
+	jati bening baru <br>
+	di Tempat
+	</div>
 	<br><br><br><br>
 	dengan hormat,<br>
 	dengan ini saya mengajukan lamaran kerja di kantor atau perusahaan bapak/ibu, berikut data pribadi saya :
@@ -85,9 +89,7 @@ $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data2);
 	demikian surat lamaran ini saya buat dengan sebenarnya, besar harapan saya dapat diterima untuk bekerja di perusahaan ibu/bapak
 	saya mengucapkan terima kasih 
 	</p><br>
-	<p align="right">hormat saya, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<br><br><br><br><br><br><br>
-	cucu desi anggraeni</p>
+
   </div>
 </body>
 

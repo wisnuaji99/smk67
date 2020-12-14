@@ -12,11 +12,12 @@ class PdfController extends Controller
 	{   
         $model = new Template_model();
         $data['template'] = $model->getTemplate($id)->getRow();
-        return view('pdf_view');
+        return view('pdf_view',$data);
     }
 
     function htmlToPDF(){
-        //set_time_limit(300);
+        $model = new Template_model();
+        //$data['template'] = $model->getTemplate($id)->getRow();
         $options = new Options();
         $options->setIsPhpEnabled(true);
         $options->setIsHtml5ParserEnabled(true);

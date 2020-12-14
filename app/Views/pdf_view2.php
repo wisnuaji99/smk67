@@ -1,4 +1,31 @@
 <!doctype html>
+	<!-- <table>
+		<tr>
+			<td>Nomor</td>
+			<td>:</td>
+			<td>72 /-1.851.75</td>
+		</tr>
+
+		<tr>
+			<td>Lampiran </td>
+			<td>:</td>
+			<td>-</td>
+		</tr>
+
+		<tr>
+			<td>Perihal</td>
+			<td>:</td>
+			<td>Permohonan tempat praktik kerja industri</td>
+		</tr>
+
+    </table> -->
+    
+    <p align="right">
+	Bekasi 22, Desemer 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	Plt Kepala SMK Negeri 67 Jakarta <br>
+	<br><br><br><br><br><br><br>
+	<u>Dra. Siti Nuryaningsih,M.M</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	NIP.196104271989022001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <html lang="en">
   <head>
     <title></title>

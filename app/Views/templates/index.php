@@ -66,9 +66,9 @@
                                     data-toggle="tooltip" data-html="true" title="Tombol Hapus">
                                     <i class="fas fa-trash" tool></i> </button>
 
-                                    <a  class="btn btn-info" href="/kerangka/view/<?php echo $row['id'] ?>"
-                                    data-toggle="tooltip" data-html="true" title="Tombol Print Surat"
-                                    ><i class="fas fa-print"></i></a>
+                                    <a  class="btn btn-info" href="pdfController/<?php echo $row['id'] ?>"
+                                    data-toggle="tooltip" data-html="true" title="Lihat Surat"
+                                    ><i class="fas fa-eye"></i></a>
                                 </td>
                               
                              
